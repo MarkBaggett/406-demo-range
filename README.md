@@ -29,9 +29,11 @@ Observe the instructions for connecting to the environment.
 terraform output
 ````
 
-Once down with environment, to shutdown the range and destroy all resources.  
+Once done with the environment, to shutdown the range and destroy all resources.  
 
 ```
 terraform apply --auto-approve -destroy 
 ```
 
+## Note: 
+The instance type is set to `m5.large` in the code. You can modifiy this value to whatever instance size you need.
