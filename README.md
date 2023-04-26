@@ -7,7 +7,7 @@ Prerequisites:
 
 First clone the repo to your host.
 ```
-git clone 
+git clone https://github.com/williamsdj/demo-range.git
 ```
 
 Once you have the `source.tgz` file.
