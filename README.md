@@ -3,7 +3,15 @@
 Prerequisites:
 
 1. Install [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
 2. Setup AWS [credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)  
+
+Other relevant docs:
+
+Creating AMI keys: [](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+
+Confirm keys with `aws sts get-caller-identity`
+
 
 First clone the repo to your host.
 ```
